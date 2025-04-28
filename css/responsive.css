@@ -1,0 +1,396 @@
+@media (max-width: 1200px){
+    .contactus__Lhs {
+        width: 320px;
+    }
+
+    .contactus__Rhs {
+        width: calc(100% - 350px);
+    }
+}
+
+@media (max-width: 991px){
+    .banner__inner h1{
+        font-size: 48px;
+    }
+
+    .Client__logo ul p {
+        font-size: 18px;
+    }
+
+    .about__main {
+        max-width: 960px;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card:last-child {
+        margin-right: 0;
+    }
+
+    .card {
+        flex: 1 1 48.5%;
+        max-width: 48.5%;
+        margin: 0 0 20px;
+    }
+
+    .procuct__list--main ul {
+        justify-content: space-between;
+    }
+
+    .procuct__list--main li{
+        flex: 1 1 48.5%;
+        max-width: 48.5%;
+        margin: 0 0 20px;
+    }
+
+    .contactus__Rhs {
+        padding: 40px 30px;
+    }
+
+    
+}
+
+@media (max-width: 780px){
+    .destop__menu{
+        display: none;
+    }
+
+    .menu__icon {
+        display: block;
+    }
+
+    .banner__inner h1 {
+        font-size: 36px;
+    }
+
+    .banner .owl-drag .owl-nav .owl-prev:before, .banner .owl-drag .owl-nav .owl-next:before {
+        width: 10px;
+        height: 16px;
+        background: url(../images/back.png) no-repeat;
+    }
+
+    .banner .owl-drag .owl-nav .owl-next, .banner .owl-drag .owl-nav .owl-prev{
+        width: 40px;
+        height: 40px;
+        background: var(--colornormal-white);
+    }
+
+    .banner .owl-drag .owl-nav .owl-prev:before {
+        transform: none;
+        margin-left: -5px;
+        margin-top: -7px;
+    }
+
+    .banner .owl-drag .owl-nav .owl-next:before{
+        transform: rotate(180deg);
+        margin-top: -7px;
+        margin-left: -4px;
+    }
+
+    .brand {
+        padding: 10px 0 40px;
+    }
+
+    .our__facility, .new__arrivals, .limited__offer{
+        padding: 0px 0 40px;
+    }
+
+    .Client__logo ul img {
+        width: 45px;
+    }
+
+    .Client__logo ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .Client__logo ul li {
+        width: 22.32222222%;
+    }
+
+    .limited__offer::before{
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .limited__offer--left {
+        display: none;
+    }
+
+    .limited__offer{
+        padding: 40px 0;
+    }
+
+    .limited__offer--right {
+        width: 100%;
+        z-index: 2;
+    }
+
+    .limited__offer::after{
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--colorall-black);
+        opacity: 0.2;
+    }
+
+    .limited__offer--right h2{
+        font-size: 38px;
+        margin-bottom: 15px;
+    }
+
+    .limited__offer--right h4{
+        font-size: 22px;
+    }
+
+    .newsletter .container {
+        justify-content: center;
+        flex-flow: column;
+        gap: 20px;
+    }
+
+    .newsletter__Lhs, .newsletter__Rhs{
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .product__seacrch input {
+        height: 48px;
+        padding: 8px 105px 8px 45px;
+    }
+
+    .product__seacrch a {
+        padding: 9px 24px;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        width: 200px;
+    }
+
+    .product__list--main {
+        width: calc(100% - 230px);
+    }
+
+    .contactus__inner{
+        flex-flow: column;
+    }
+
+    .contactus__Lhs, .contactus__Rhs{
+        width: 100%;
+    }
+
+    .contactus__inner {
+        padding: 30px;
+    }
+
+    .map iframe{
+        width: 100%;
+    }
+
+    .map{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 580px){
+    .banner__inner h1 {
+        font-size: 26px;
+    }
+
+    .new__arrivals{
+        padding: 0px 0 20px;
+    }
+
+    .sidebar h3 {
+        font-size: 22px;
+        margin: 0 0 5px;
+    }
+
+    .check__info p {
+        font-size: 15px;
+    }
+
+    .sidebar {
+        width: 150px;
+    }
+
+    .product__list--main {
+        width: calc(100% - 180px);
+    }
+
+    .procuct__list--main{
+        margin: 0;
+    }
+
+    .product__seacrch{
+        display: none;
+    }
+
+    .mobile__search{
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    
+}
+
+@media (max-width: 480px){
+    .banner__inner h1 {
+        font-size: 24px;
+        margin: 0 0 10px;
+    }
+
+    .banner__inner h6{
+        margin: 0 0 10px;
+    }
+
+    .banner .btn{
+        padding: 8px 38px 6px 8px;
+        font-size: 14px;
+    }
+
+    .banner__btn .btn:after {
+        right: 10px;
+    }
+    .Client__logo ul li {
+        width: 29%;
+    }
+
+    .about__main {
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .card:last-child{
+        margin: 0;
+    }
+
+    .our__facility .heading h4 {
+        font-size: 22px;
+    }
+
+    .heading__RHS p {
+        font-size: 17px;
+    }
+
+    .heading {
+        margin-bottom: 25px;
+    }
+
+    .heading h4{
+        font-size: 22px;
+    }
+
+    .limited__offer--right h2 {
+        font-size: 28px;
+    }
+
+    .limited__offer--right h4 {
+        font-size: 20px;
+    }
+
+    .limited__offer--right{
+        padding: 0;
+    }
+
+    .limited__offer--right .btn{
+        padding: 8px 45px 6px 8px;
+    }
+
+    .newsletter {
+        padding: 40px 0;
+        margin: 50px 0 40px;
+    }
+
+    .news__input input {
+        padding: 8px 120px 8px 15px;
+        height: 48px;
+    }
+
+    .news__input a {
+        padding: 11px 20px;
+    }
+
+    .procuct__list--main li {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .mobile__search input{
+        height: 48px;
+        padding: 8px 105px 8px 45px;
+    }
+
+    .mobile__search a {
+        padding: 9px 24px;
+        font-size: 14px;
+    }
+
+    .contactus {
+        padding: 40px 0;
+    }
+
+    .contactus__inner {
+        border-radius: 25px;
+        padding: 25px 15px;
+    }
+
+    .contactus__Rhs {
+        border-radius: 30px;
+    }
+
+    .form__group input {
+        border-radius: 50px;
+        height: 50px;
+        padding: 12px 25px;
+        margin-bottom: 15px;
+    }
+
+    .form__group textarea {
+        border-radius: 25px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .contact__btn .btn {
+        padding: 10px 18px 8px;
+        font-size: 14px;
+    }
+
+    .contact__icon {
+        width: 50px;
+        height: 50px;
+        padding: 8px;
+    }
+
+    .contact__info {
+        width: calc(100% - 70px);
+    }
+
+    
+
+    
+}
+
+@media (max-width: 380px){
+    .banner__inner h1 {
+        font-size: 20px;
+    }
+
+    .banner__inner h6{
+        font-size: 17px;
+    }
+}
